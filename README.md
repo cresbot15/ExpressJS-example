@@ -18,7 +18,7 @@ Production server
 npm start
 ```
 
-Before using the authentication routes a JWT_SECRET variable should be added to the environent file. This can be any string but a cyrptographically secure string can be generate through:
+Before using the authentication routes a JWT_SECRET variable should be added to the environent file. This can be any string but a cyrptographically secure string can be generated through:
 ```bash
 node -e "console.log(require('crypto').randomBytes(256).toString('base64'));"
 ```
