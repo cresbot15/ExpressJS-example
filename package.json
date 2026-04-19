@@ -21,5 +21,9 @@
   "devDependencies": {
     "nodemon": "^3.1.14"
   },
-  "type": "module"
+  "type": "module",
+  "imports": {
+    "#db": "./src/db.js",
+    "#routes/*": "./src/routes/*.js" 
+  }
 }
